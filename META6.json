@@ -1,0 +1,19 @@
+{
+    "perl" : "6.c",
+    "name" : "Foo::\u0000Foo",
+    "auth" : "github:AlexDaniel",
+    "api" : "1",
+    "version" : "0.0.1",
+    "description" : "A module with a null byte \u0000 in its name.",
+    "authors" : [ "Aleks-Daniel \u0000Jakimenko-Aleksejev" ],
+    "license" : "GPL-3.0-or-later",
+    "provides" : {
+        "Foo::\u0000Foo" : "lib/Foo/nullbyteFoo.pm6"
+    },
+    "depends" : [ ],
+    "build-depends" : [ ],
+    "test-depends" : [ ],
+    "resources" : [ ],
+    "tags": [ ],
+    "source-url" : "git://github.com/AlexDaniel/foo-nullbyte-foo.git"
+}
